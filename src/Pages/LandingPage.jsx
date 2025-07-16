@@ -9,27 +9,34 @@ import TrendingDeals from '../Components/Tdeals/TrendingDeals';
 import CountdownTimer from '../Components/Tdeals/CountdownTimer';
 import RecentlyViewed from '../Components/RecentlyViewed';
 
-
+//  Import banner images from src/Assets
+import newBanner from '../Assets/Home/New.png';
+import electronicBanner from '../Assets/Home/electronic.png';
+import fashionBanner from '../Assets/Home/fashion2.png';
+import groceryBanner from '../Assets/Home/grocery.png';
+import beautyBanner from '../Assets/Home/beauty.png';
+import homeBanner from '../Assets/Home/home.png';
 
 
 function LandingPage() {
   const navigate = useNavigate();
 
   const banners = [
-    { image: "/Assets/Home/new.png", alt: "hero" },
-    { image: "/Assets/Home/electronic.png", alt: "Electronics Sale" },
-    { image: "/Assets/Home/fashion2.png", alt: "Fashion Offers" },
-    { image: "/Assets/Home/grocery.png", alt: "Groceries Deals" },
-    { image: "/Assets/Home/beauty.png", alt: "Beauty Products" },
-    { image: "/Assets/Home/home.png", alt: "Home & Living" },
+    { image: newBanner, alt: "hero" },
+    { image: electronicBanner, alt: "Electronics Sale" },
+    { image: fashionBanner, alt: "Fashion Offers" },
+    { image: groceryBanner, alt: "Groceries Deals" },
+    { image: beautyBanner, alt: "Beauty Products" },
+    { image: homeBanner, alt: "Home & Living" },
   ];
+
 
   const settings = {
     dots: true,
     infinite: true,
     speed: 600,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false

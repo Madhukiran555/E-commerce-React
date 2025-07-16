@@ -5,6 +5,7 @@ import { AiOutlineShoppingCart,AiFillHeart, AiOutlineBell, AiOutlineSearch } fro
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../Components/Authentication/AuthContext';
+import newLogo from '../Assets/newlogo.png';
 
 
 
@@ -33,7 +34,8 @@ const handleSearch = () => {
 
 
           <div className="logo-part">
-    <img src="/Assets/newlogo.png" alt="Astrolite Logo" className="astrolite-logo" />
+   <img src={newLogo} alt="Astrolite Logo" className="astrolite-logo" />
+
   </div>
 
     <div className="header-content">

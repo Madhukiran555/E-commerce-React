@@ -2,6 +2,8 @@ import React, { useEffect, useState, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react'; 
 import './RecentlyViewed.css';
 
+import placeholder from '../Assets/placeholder.jpg';
+
 const RecentlyViewed = ({ category }) => {
   const [viewed, setViewed] = useState([]);
   const scrollRef = useRef(null);

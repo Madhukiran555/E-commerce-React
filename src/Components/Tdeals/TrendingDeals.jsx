@@ -3,6 +3,8 @@ import deals from '../../Data/TrendingDeals';
 import CountdownTimer from './CountdownTimer';
 import './Trending.css';
 
+
+
 const TrendingDeals = () => {
   const handleAddToCart = (item) => {
     alert(`Added "${item.title}" to cart!`);
