@@ -1,0 +1,265 @@
+.checkout-page {
+  padding: 2rem;
+  background: #f0f4f8;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  
+
+}
+
+.checkout-page h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+  text-align: center;
+}
+
+.section {
+  margin-left: 140px;
+  width: 80%;
+  margin-bottom: 1.5rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #374151;
+}
+
+.section p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.checkout-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.8rem 0;
+}
+
+.checkout-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.checkout-item strong {
+  color: #111827;
+}
+
+.price-breakdown p {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.price-breakdown p strong {
+  color: #111827;
+}
+
+.place-order-btn {
+  width: 100%;
+  background-color: #10b981;
+  color: white;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.place-order-btn:hover {
+  background-color: #059669;
+}
+
+.order-confirmation {
+  margin-top: 1rem;
+  background-color: #e0fce3;
+  color: #065f46;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Dropdown */
+.section select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background-color: white;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #374151;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='none'%20stroke='%23333'%20stroke-width='1'%20d='M0,0%20L2,3%20L4,0'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+}
+
+.section select:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+
+.address-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: #007bff;
+  transition: transform 0.2s;
+}
+
+.edit-icon:hover {
+  transform: scale(1.2);
+}
+
+.address-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: vertical;
+}
+.card-form input,
+.upi-form input {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.card-form label {
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.upi-form button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #00a651;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Payment Method Section */
+.section select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Card Details Form */
+.card-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-form input[type="text"],
+.card-form input[type="password"] {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.card-form label {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* UPI Form */
+.upi-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upi-form input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.upi-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upi-form button:hover {
+  background-color: #0056b3;
+}
+
+.upi-form p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+/* Custom Checkbox Label */
+.card-form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+  background: #f6f6f6;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: background 0.3s ease;
+}
+
+.card-form label:hover {
+  background: #eee;
+}
+
+.card-form input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #007bff;
+  cursor: pointer;
+}

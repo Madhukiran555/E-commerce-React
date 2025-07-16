@@ -1,0 +1,145 @@
+
+.wishlist-page {
+  padding: 1.9rem 1.5rem;
+  max-width: 1400px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4; 
+}
+
+
+.wishlist-page h2 {
+  font-size: 1.9rem;
+  color: #14532d; 
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* If Wishlist Empty */
+.empty-text {
+  font-size: 1.1rem;
+  color: #6b7280;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Grid Layout */
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual Card */
+.wishlist-card {
+  background: #e6f4ea;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(22, 163, 74, 0.1); /* soft green shadow */
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.wishlist-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Product Image */
+.wishlist-image {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 128, 0, 0.08);
+}
+
+/* Text Section */
+.wishlist-details {
+  flex-grow: 1;
+}
+
+/* Product Name */
+.wishlist-details h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #065f46;
+}
+
+/* Pricing Block */
+.wishlist-price {
+  margin-top: 6px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.new-price {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.discount-text {
+  color: #dc2626;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Buttons */
+.wishlist-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+}
+
+.wishlist-remove,
+.wishlist-cart {
+  padding: 0.45rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+/* Remove from Wishlist */
+.wishlist-remove {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.wishlist-remove:hover {
+  background-color: #fecaca;
+}
+
+/* Move to Cart Button */
+.wishlist-cart {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.wishlist-cart:hover {
+  background-color: #bbf7d0;
+}
+
+/* Heart Icon */
+.filled-heart {
+  color: #e11d48;
+  font-size: 1rem;
+}

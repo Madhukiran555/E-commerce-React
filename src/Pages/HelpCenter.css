@@ -1,0 +1,49 @@
+.help-center {
+  padding: 2rem;
+  text-align: center;
+  color: #222;
+}
+
+.help-center h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.help-center p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.help-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.help-card {
+  background: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.help-card:hover {
+  background: #d4f5e9;
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.help-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.help-card p {
+  font-size: 0.95rem;
+  color: #555;
+}

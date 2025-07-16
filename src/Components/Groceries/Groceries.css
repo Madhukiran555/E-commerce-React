@@ -1,0 +1,130 @@
+.groceries-page {
+  padding: 1.2rem;
+}
+
+.groceries-page h2 {
+ margin-bottom: 22px;
+ margin-top: 5px;
+}
+.grocery-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.item-card {
+  background: #fefefe;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.item-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.item-pricing {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.new-price {
+  color: #16a34a;
+  font-weight: bold;
+}
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+.discount {
+  color: #dc2626;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.back-btn {
+  margin-bottom: 1rem;
+  background-color: #f3f4f6;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.item-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Buttons */
+.item-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add to cart style */
+.item-actions button:first-child {
+  background-color: #38a169; /* green */
+  color: white;
+}
+
+.item-actions button:first-child:hover {
+  background-color: #2f855a;
+}
+
+/* Wishlist style */
+.item-actions button:last-child {
+  background-color: #edf2f7; /* light gray */
+  color: #e53e3e;
+}
+
+.item-actions button:last-child:hover {
+  background-color: #e2e8f0;
+}
+

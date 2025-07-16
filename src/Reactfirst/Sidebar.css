@@ -1,0 +1,136 @@
+.sidebar {
+  position: fixed;
+  margin-top: 129px;
+  width: 220px;
+  height: calc(100vh - 90px);
+  background: linear-gradient(180deg, #e0f7ef, #e8f5e9);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0%);
+}
+
+/* Logo (if needed) */
+.sidebar-logo {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.sidebar-logo img {
+  width: 140px;
+  object-fit: contain;
+  margin-top: -10px;
+}
+
+.menu-section,
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 12px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e7d32;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  position: relative;
+}
+
+.menu-link .icon {
+  font-size: 18px;
+  color: #388e3c;
+  transition: color 0.3s;
+}
+
+/* Hover Effect */
+.menu-link:hover {
+  background: #d0f0dc;
+  transform: translateX(6px);
+  color: #1b5e20;
+}
+
+.menu-link:hover .icon {
+  color: #1b5e20;
+}
+
+/* Active Link */
+.active-link {
+  background-color: #43a047;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(67, 160, 71, 0.2);
+  transform: translateX(6px);
+}
+
+.active-link .icon {
+  color: white;
+}
+
+
+.divider {
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(to right, #81c784, #b2dfdb);
+  margin: 20px auto;
+  border: none;
+  opacity: 0.7;
+}
+.bottom-section .menu-link {
+  color: #388e3c;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background-color: #f1f8e9; 
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.bottom-section .menu-link:hover {
+  background-color: #c5e1a5;
+  color: #1b5e20;
+  transform: translateX(6px);
+}
+
+.bottom-section .menu-link .icon {
+  color: #689f38;
+  font-size: 17px;
+}
+
+
+.bottom-section .bottom-active {
+  position: relative;
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+.bottom-section .bottom-active::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 4px;
+  width: 70%;
+  height: 2px;
+  background-color: #1b5e20;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}

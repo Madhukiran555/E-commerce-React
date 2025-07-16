@@ -1,0 +1,225 @@
+.settings-page {
+  display: flex;
+  min-height: 80vh;
+  padding: 20px;
+  gap: 2rem;
+}
+
+.settings-sidebar {
+ width: 250px;
+  background: linear-gradient(135deg, #e6f4ea, #c8e6c9); 
+    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.15); 
+  padding: 18px 15px;
+  border-radius: 16px;
+   border: 1px solid #a5d6a7;
+  position: relative;
+  overflow: hidden;
+}
+
+.settings-sidebar::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 50%;
+  z-index: 0;
+}
+.settings-sidebar h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #2e7d32;
+  border-bottom: 1px solid #a5d6a7;
+  padding-bottom: 8px;
+}
+
+.settings-sidebar ul {
+  list-style: none;
+  padding-top: 0px;
+  margin: 0;
+}
+
+.settings-sidebar li {
+  padding: 10px 10px;
+    margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  font-weight: 500;
+  color: #205723;
+}
+
+.settings-sidebar li:hover {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+.settings-sidebar .active-tab {
+  background-color: #cbe4cc; 
+  color: #1b5e20;            
+  font-weight: 600;
+  box-shadow: none;         
+  border-left: 4px solid #6ec272;
+}
+.settings-content {
+ margin-left: 30px;
+  max-width: 880px;
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+
+}
+
+.settings-content-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settings-content-inner input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.settings-content-inner input:focus {
+  border-color: #66bb6a;
+}
+
+.settings-content-inner button {
+  padding: 10px 15px;
+  background: #43a047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.settings-content-inner button:hover {
+  background: #2e7d32;
+}
+
+
+.settings-address-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.settings-address-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f8e9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.settings-address-list li button {
+  background: #e53935;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.settings-address-list li button:hover {
+  background: #c62828;
+}
+
+
+/* Notificatio design */
+
+.notif-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #f1f8e9;
+  padding: 17px 16px 5px;
+  border-radius: 8px;
+  margin-bottom: 1px;
+}
+
+.notif-row input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 16px;
+  accent-color: #388e3c;
+  cursor: pointer;
+}
+
+.notif-row label {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e7d32;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+
+
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  background: #e8f5e9;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.payment-method span {
+  font-size: 15px;
+  color: #2e7d32;
+}
+
+.payment-method button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.payment-method button:hover {
+  background-color: #c62828;
+}
+
+
+.settings-content-inner label {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.settings-content-inner select {
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: #f1f8e9;
+  transition: border-color 0.3s;
+}
+
+.settings-content-inner select:focus {
+  border-color: #66bb6a;
+}
