@@ -1,17 +1,37 @@
 {
   "files": {
     "main.css": "/E-commerce-React/static/css/main.f5b12322.css",
-    "main.js": "/E-commerce-React/static/js/main.2f6194fd.js",
+    "main.js": "/E-commerce-React/static/js/main.7289236f.js",
+    "static/media/grocery.png": "/E-commerce-React/static/media/grocery.f9c7e6baf208174927ce.png",
+    "static/media/electronic.png": "/E-commerce-React/static/media/electronic.c683a1ca2822c71a7da0.png",
+    "static/media/home.png": "/E-commerce-React/static/media/home.d534c65006a58fcc76be.png",
+    "static/media/beauty.png": "/E-commerce-React/static/media/beauty.3c4eda832cd1d07c27f0.png",
+    "static/media/fashion2.png": "/E-commerce-React/static/media/fashion2.de2860b7638ad7402cad.png",
+    "static/media/New.png": "/E-commerce-React/static/media/New.10ec708d9ba61b37f12a.png",
+    "static/media/bottle.jpg": "/E-commerce-React/static/media/bottle.4a0d9d22f18d26a86073.jpg",
+    "static/media/laptop.jpg": "/E-commerce-React/static/media/laptop.a9ea38627a771ca05c0b.jpg",
+    "static/media/facewash.jpg": "/E-commerce-React/static/media/facewash.ffba6d41bca43ee3860b.jpg",
+    "static/media/newlogo.png": "/E-commerce-React/static/media/newlogo.7f081b6f7d16f7536bbb.png",
+    "static/media/bluetooth.png": "/E-commerce-React/static/media/bluetooth.d6a631bcda6a0d8ee7ca.png",
+    "static/media/led.jpg": "/E-commerce-React/static/media/led.f7d1b9f9415d7be983d6.jpg",
+    "static/media/smartphone.jpg": "/E-commerce-React/static/media/smartphone.64179744d20120eeb3b6.jpg",
+    "static/media/veg.jpg": "/E-commerce-React/static/media/veg.3337eea4a260883d6ce1.jpg",
+    "static/media/buds.jpg": "/E-commerce-React/static/media/buds.df9e8efa3a73222cc6e6.jpg",
+    "static/media/air.jpg": "/E-commerce-React/static/media/air.01609e8f21b65c6a3d45.jpg",
+    "static/media/band.jpg": "/E-commerce-React/static/media/band.8691fd2b438de1ee6945.jpg",
+    "static/media/shirts.jpg": "/E-commerce-React/static/media/shirts.77ae5703c3d380e9ba27.jpg",
+    "static/media/tea.jpg": "/E-commerce-React/static/media/tea.8fa4c815ab18d79e6272.jpg",
+    "static/media/telvision.jpg": "/E-commerce-React/static/media/telvision.b36592e432d2bfe89bd6.jpg",
     "static/media/slick.svg": "/E-commerce-React/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/E-commerce-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/E-commerce-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/E-commerce-React/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/E-commerce-React/index.html",
     "main.f5b12322.css.map": "/E-commerce-React/static/css/main.f5b12322.css.map",
-    "main.2f6194fd.js.map": "/E-commerce-React/static/js/main.2f6194fd.js.map"
+    "main.7289236f.js.map": "/E-commerce-React/static/js/main.7289236f.js.map"
   },
   "entrypoints": [
     "static/css/main.f5b12322.css",
-    "static/js/main.2f6194fd.js"
+    "static/js/main.7289236f.js"
   ]
 }
